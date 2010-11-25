@@ -1,11 +1,11 @@
 $ORIGIN .
 $TTL 86400	; 1 day
-bl10.bamblelan.org	IN SOA	dns1.bamblelan.org. tech.bamblelan.org. (
+bl11.bamblelan.org	IN SOA	dns1.bamblelan.no. tech.bamblelan.no. (
 				2010103963 ; serial
 				3600       ; refresh (1 hour)
 				1800       ; retry (30 minutes)
 				86400      ; expire (1 day)
 				3600       ; minimum (1 hour)
 				)
-			NS	dns1.bamblelan.org.
+			NS	dns1.bamblelan.no.
 			A	10.20.32.2
