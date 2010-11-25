@@ -37,13 +37,11 @@ REJECT		net		$FW	tcp	22
 #REJECT          vlan2           net     udp     1337
 
 # portforwarding
-DNAT		net		loc:10.20.40.86		tcp	18506
+#DNAT		net		loc:10.20.40.86		tcp	18506
 
 
 # Sperre bruker
 #REJECT	    vlan2:10.20.32.67	net
-#REJECT	    vlan2:10.20.32.67  $FW
-#REJECT     vlan2:10.20.32.67  vlan3
 
 # sperre ip-adresser
 #REJECT		net:95.211.88.51	vlan3
