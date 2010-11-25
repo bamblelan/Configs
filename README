@@ -1,1 +1,6 @@
 Here are the configfiles for the BambleLAN dataparty
+
+Software used:
+ISC-DHCP
+ISC-BIND9
+Shorewall - for iptables/firewall
