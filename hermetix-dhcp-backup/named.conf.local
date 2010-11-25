@@ -1,0 +1,13 @@
+zone "bl10.bamblelan.org" {
+       type master;
+       file "/etc/bind/db.bl10zone";
+       allow-update { localhost; key "rndc-key"; };
+       notify yes;
+};
+zone "20.10.in-addr.arpa" {
+       type master;
+       file "/etc/bind/db.10.20";
+       allow-update { localhost; key "rndc-key"; };
+       notify yes;
+};
+include "/etc/bind/rndc.key";

@@ -1,0 +1,33 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto eth0 eth1 vlan2 vlan3
+
+#########LAN#########
+
+iface eth1 inet static
+	address 159.130.201.100
+	netmask 255.255.255.128
+	gateway 159.130.201.126
+
+iface eth0 inet static
+	address 10.20.40.1
+	netmask 255.255.254.0
+	network 10.20.30.0/23
+
+#vlan2
+iface vlan2 inet static
+        address 10.20.32.1
+        netmask 255.255.254.0
+        vlan_raw_device eth0
+
+
+#vlan3
+iface vlan3 inet static
+        address 10.20.34.1
+        netmask 255.255.254.0
+        vlan_raw_device eth0

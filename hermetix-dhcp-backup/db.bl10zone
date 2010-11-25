@@ -1,0 +1,97 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+bl10.bamblelan.org	IN SOA	dns1.bamblelan.org. tech.bamblelan.org. (
+				2010103963 ; serial
+				3600       ; refresh (1 hour)
+				1800       ; retry (30 minutes)
+				86400      ; expire (1 day)
+				3600       ; minimum (1 hour)
+				)
+			NS	dns1.bamblelan.org.
+			A	10.20.32.2
+$ORIGIN deltager.bl10.bamblelan.org.
+$TTL 1800	; 30 minutes
+alexbox			A	10.20.30.52
+			TXT	"310df27826820ca3f7ba7d7410e2008c3a"
+atlantis		A	10.20.30.33
+			TXT	"316630483cce4b9cba8eeefeb416fc7c20"
+Bull			A	10.20.30.53
+			TXT	"31acc5746ab030be549bc5eb6a85ad6078"
+dragon			A	10.20.30.34
+			TXT	"311d1b9d23fdbedbe4260198620f1f89bb"
+HALL			A	10.20.30.50
+			TXT	"317fa4f703753ca4c2087ee3c62f88d01d"
+info-1			A	10.20.30.68
+			TXT	"0079a2db09d391d82a46d3b7db2a5f9468"
+jupiter			A	10.20.30.30
+			TXT	"316c6d37ac520bfa2f7eeea64d470e5bbe"
+Kimmag-PC		A	10.20.30.62
+			TXT	"31d112e1ac7765a567630a22d59d884ccd"
+kimmi-PC		A	10.20.30.56
+			TXT	"31a009bc5476218b251b5d917f7143b790"
+kkk			A	10.20.30.72
+			TXT	"31856d3f737335b64b47f0a33ba952aec4"
+klient1			A	10.20.30.69
+			TXT	"00a4f8419d8c447c7f4dd1887f1f213734"
+klient2			A	10.20.30.40
+			TXT	"00bd8eef3c58a0cb31a5aa87c1af1ee4af"
+Master			A	10.20.30.35
+			TXT	"31753fa7407b3d07faacb1bdddde68f921"
+Per-Stian-PC		A	10.20.30.49
+			TXT	"314de495c0d8e9b3d3feee173f89d12227"
+ScypersGamingPC		A	10.20.30.48
+			TXT	"31ed0d5b958428ae3dffaa47325e646e52"
+Siv-PC			A	10.20.30.63
+			TXT	"312ee860e892d8c47df5ae1fbbc48f58b0"
+Slipknut-PC		A	10.20.30.64
+			TXT	"31902e2eae8332f601c65342dbbf89c6cc"
+Sondre-PC		A	10.20.30.66
+			TXT	"314d6c22eeca6e619454bb79686ba1fa3a"
+Stusjelig-PC		A	10.20.30.38
+			TXT	"31f45bdcb7ca76be2f4cdf843608b559d9"
+Tass			A	10.20.30.32
+			TXT	"31babe5034b0dd2d5299855959230ecec4"
+tsg			A	10.20.30.51
+			TXT	"31a58b65afb8241681110314ee34c7686d"
+vrxsv			A	10.20.30.70
+			TXT	"314eb1bbfdc1190351d70ea573ffe6c7b5"
+Woormy-PC		A	10.20.30.45
+			TXT	"3107554300730439d4a28fa6375ed22e8b"
+Zwiper1-PC		A	10.20.30.46
+			TXT	"31e9c2bd7877109396dec02123d075fe0b"
+$ORIGIN unknown.bl10.bamblelan.org.
+646CBFF6		A	10.20.40.62
+			TXT	"00d19fe7b1ddd43c1bec9e9d630871ddf8"
+alexbox			A	10.20.40.86
+			TXT	"319a409cb6e528321a43e9b0dad34d770c"
+HALL			A	10.20.40.49
+			TXT	"317fa4f703753ca4c2087ee3c62f88d01d"
+jupiter			A	10.20.40.32
+			TXT	"316c6d37ac520bfa2f7eeea64d470e5bbe"
+lugg1s			A	10.20.40.40
+			TXT	"31a46433661e04d693d7e45db5cc47e419"
+Per-Stian-PC		A	10.20.40.47
+			TXT	"314de495c0d8e9b3d3feee173f89d12227"
+Tass			A	10.20.40.84
+			TXT	"31babe5034b0dd2d5299855959230ecec4"
+tsg			A	10.20.40.92
+			TXT	"31c76ada0e0470f439853dbf94fd7556c9"
+Woormy-PC		A	10.20.40.46
+			TXT	"3107554300730439d4a28fa6375ed22e8b"
+$ORIGIN vlan2.bl10.bamblelan.org.
+alexbox			A	10.20.32.46
+			TXT	"310df27826820ca3f7ba7d7410e2008c3a"
+Bull			A	10.20.32.39
+			TXT	"31acc5746ab030be549bc5eb6a85ad6078"
+kimmi-PC		A	10.20.32.41
+			TXT	"31a009bc5476218b251b5d917f7143b790"
+Master			A	10.20.32.44
+			TXT	"31753fa7407b3d07faacb1bdddde68f921"
+MtGo			A	10.20.32.85
+			TXT	"315bd9f23883c0f8aab4128cc6fd794323"
+thalid			A	10.20.32.84
+			TXT	"31d4a84631a13cea752002d6992aebf803"
+tsg			A	10.20.32.47
+			TXT	"31a58b65afb8241681110314ee34c7686d"
+$ORIGIN bl10.bamblelan.org.
+Marthe-PC.vlan3		TXT	"311e0e16f46a55d6b6403ba685ab516816"

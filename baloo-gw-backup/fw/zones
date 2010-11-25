@@ -1,0 +1,5 @@
+fw firewall
+net ipv4
+loc ipv4
+vlan2 ipv4
+vlan3 ipv4

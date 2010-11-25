@@ -1,0 +1,21 @@
+### FW to ......
+fw 	net		ACCEPT
+fw 	loc		ACCEPT
+fw 	vlan2		ACCEPT
+fw 	vlan3		ACCEPT
+
+### loc, vlan2 og vlan3
+loc 	all 		ACCEPT
+
+vlan2 	all		ACCEPT
+
+vlan3 	net		ACCEPT
+vlan3 	fw		ACCEPT
+vlan3 	vlan2		ACCEPT
+vlan3 	loc		REJECT info
+
+### all, net
+net 	all		ACCEPT
+all	all		REJECT info
+
+#LAST LINE -- ADD YOUR ENTRIES ABOVE THIS LINE -- DO NOT REMOVE

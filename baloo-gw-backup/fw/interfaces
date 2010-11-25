@@ -1,0 +1,7 @@
+###############################################################################
+#ZONE	INTERFACE	BROADCAST	OPTIONS
+net     eth1            detect          dhcp,tcpflags,routefilter,nosmurfs,logmartians
+loc     eth0            detect          dhcp,tcpflags,nosmurfs
+vlan2   vlan2		detect		dhcp,tcpflags,nosmurfs
+vlan3	vlan3		detect		dhcp,tcpflags,nosmurfs
+#LAST LINE -- ADD YOUR ENTRIES BEFORE THIS ONE -- DO NOT REMOVE

@@ -1,0 +1,56 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+20.10.in-addr.arpa	IN SOA	dns1.bamblelan.org. tech.bamblelan.org. (
+				2010102956 ; serial
+				3600       ; refresh (1 hour)
+				1800       ; retry (30 minutes)
+				86400      ; expire (1 day)
+				3600       ; minimum (1 hour)
+				)
+			NS	dns1.bamblelan.org.
+$ORIGIN 30.20.10.in-addr.arpa.
+$TTL 1800	; 30 minutes
+30			PTR	jupiter.deltager.bl10.bamblelan.org.
+32			PTR	Tass.deltager.bl10.bamblelan.org.
+33			PTR	atlantis.deltager.bl10.bamblelan.org.
+34			PTR	dragon.deltager.bl10.bamblelan.org.
+35			PTR	Master.deltager.bl10.bamblelan.org.
+38			PTR	Stusjelig-PC.deltager.bl10.bamblelan.org.
+40			PTR	klient2.deltager.bl10.bamblelan.org.
+45			PTR	Woormy-PC.deltager.bl10.bamblelan.org.
+46			PTR	Zwiper1-PC.deltager.bl10.bamblelan.org.
+48			PTR	ScypersGamingPC.deltager.bl10.bamblelan.org.
+49			PTR	Per-Stian-PC.deltager.bl10.bamblelan.org.
+50			PTR	HALL.deltager.bl10.bamblelan.org.
+51			PTR	tsg.deltager.bl10.bamblelan.org.
+52			PTR	alexbox.deltager.bl10.bamblelan.org.
+53			PTR	Bull.deltager.bl10.bamblelan.org.
+56			PTR	kimmi-PC.deltager.bl10.bamblelan.org.
+62			PTR	Kimmag-PC.deltager.bl10.bamblelan.org.
+63			PTR	Siv-PC.deltager.bl10.bamblelan.org.
+64			PTR	Slipknut-PC.deltager.bl10.bamblelan.org.
+66			PTR	Sondre-PC.deltager.bl10.bamblelan.org.
+68			PTR	info-1.deltager.bl10.bamblelan.org.
+69			PTR	klient1.deltager.bl10.bamblelan.org.
+70			PTR	vrxsv.deltager.bl10.bamblelan.org.
+72			PTR	kkk.deltager.bl10.bamblelan.org.
+$ORIGIN 32.20.10.in-addr.arpa.
+39			PTR	Bull.vlan2.bl10.bamblelan.org.
+41			PTR	kimmi-PC.vlan2.bl10.bamblelan.org.
+44			PTR	Master.vlan2.bl10.bamblelan.org.
+46			PTR	alexbox.vlan2.bl10.bamblelan.org.
+47			PTR	tsg.vlan2.bl10.bamblelan.org.
+84			PTR	thalid.vlan2.bl10.bamblelan.org.
+85			PTR	MtGo.vlan2.bl10.bamblelan.org.
+$ORIGIN 20.10.in-addr.arpa.
+228.34			PTR	Marthe-PC.vlan3.bl10.bamblelan.org.
+$ORIGIN 40.20.10.in-addr.arpa.
+32			PTR	jupiter.unknown.bl10.bamblelan.org.
+40			PTR	lugg1s.unknown.bl10.bamblelan.org.
+46			PTR	Woormy-PC.unknown.bl10.bamblelan.org.
+47			PTR	Per-Stian-PC.unknown.bl10.bamblelan.org.
+49			PTR	HALL.unknown.bl10.bamblelan.org.
+62			PTR	646CBFF6.unknown.bl10.bamblelan.org.
+84			PTR	Tass.unknown.bl10.bamblelan.org.
+86			PTR	alexbox.unknown.bl10.bamblelan.org.
+92			PTR	tsg.unknown.bl10.bamblelan.org.
