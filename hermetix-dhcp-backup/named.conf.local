@@ -1,4 +1,4 @@
-zone "bl11.bamblelan.org" {
+zone "bl11.bamblelan.no" {
        type master;
        file "/etc/bind/db.bl11zone";
        allow-update { localhost; key "rndc-key"; };
